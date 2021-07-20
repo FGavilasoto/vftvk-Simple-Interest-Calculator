@@ -11,7 +11,12 @@ function compute()
 
     if (principal <= 0)
     {
+<<<<<<< Updated upstream
       document.getElementById("result").innerHTML = "Please enter a positive value for amount"
+=======
+      alert("Enter a positive number");
+      document.getElementById("principal").focus();
+>>>>>>> Stashed changes
     }
     else
     {
